@@ -1,0 +1,330 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    min-width: 1500px;
+    min-height: 800px;
+}
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content:"";
+    clear: both;
+    display: table;
+}
+
+header {
+    background-image: url(Images/headerbackground.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#heading { 
+   margin: 140px 100px 0 100px;
+   font-family: 'Passion One', sans-serif;
+   font-size: 25px;
+   letter-spacing: 4;
+   display: inline-block;
+   position: static;
+}
+
+#bookbutton {
+    margin: 10px 0 0 350px;
+    width: 100px;
+    height: 30px;
+    font-size: 10px; 
+    color: white;
+    font-family: "Merriweather Sans", sans-serif;
+    background-color: #3c2164;
+    font-weight: 600;
+    border-radius: 30px 30px 30px 30px;
+    
+}
+
+#Logo {
+    width: 300px;
+    float: left;
+    margin-left: 2%;
+    z-index: 1;
+}
+
+#mainnav {
+    text-align: right;
+    margin: -200px 20px 0 0;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 15px;
+    letter-spacing: 3;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+#mainnav ul li {
+    display: inline-block;
+}
+
+a {
+    word-spacing: 3;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.social ul li {
+    display: inline;    
+}
+
+.hline {
+    width:100%;
+    height:3px;
+    background: #000;
+}
+#welcome {
+    background-image: url('Images/background.jpg');
+    background-size: 100%;
+}
+
+#spa {
+    margin: 300px 0px 0px 100px;
+    padding-top: ;
+    display: inline-block;
+    
+}
+
+#caption {
+    width: 300px;
+    height: 100px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Passion One";
+    letter-spacing: 3;
+    margin: -10px 0 0 -10px;
+    position: static;
+}
+
+#intro {
+    width: 400px;
+    height: 300px;
+    margin: -290px 0 0 750px;
+    padding-bottom: 50px;
+    font-family: "Merriweather Sans" sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+
+footer {
+    background: #f6a8bb;
+    width: 100%;
+    height: 170px;
+    position: static;
+    
+}
+
+#contact {
+    float: left;
+    display: inline;
+    margin: 30px 0px 0px 400px;
+    
+
+}
+
+#contact h4 {
+    font-size: 20px;
+    font-family: "Passion One", sans-serif;
+    letter-spacing: 4;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+#visit {
+    float: left;
+    display: inline;
+    height: 50;
+    margin: 30px 0px 0px 100px;
+    
+}
+
+#visit h4 {
+    font-size: 20px;
+    font-family: "Passion One", sans-serif;
+    letter-spacing: 4;
+    text-align: center;
+}
+
+#visit p {
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+#connect {
+    height: 20px;
+    float: left;
+    display: inline;
+    margin: 30px 0px 0px 100px;
+    text-align: center;
+    position: absolute;
+}
+
+#connect h4 {
+    font-size: 20px;
+    font-family: "Passion One", sans-serif;
+    letter-spacing: 4;
+}
+
+small {
+    float: right;
+    margin: 30px 0 0 0; 
+    font-size: 10px
+}
+
+/* About */
+
+#about * {
+    margin: 0;
+    padding: 0;
+}
+
+#about .container {
+    width: 100%;
+    height: 100%;
+    min-width: 1520px;
+    min-height: 750px;
+    background-image: url('Images/wrinkled.jpg');
+    
+}
+
+
+#about #logo {
+    width: 250px;
+    float: left;
+    margin-left: 2%;
+    z-index: 1;
+}
+
+#pic {
+    width: 150.5px; 
+}
+
+#about footer {
+    margin: 0 0 0 0;
+}
+
+
+#summary {
+    width: 500px;
+    margin: 0 0 30px 520px;
+    font-size: 11px;
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+#pic {
+    margin: 0 15px 00 240px;
+    float: left;
+}
+
+#alyssa h3 {
+ font-size: 25px;
+ display: inline-block; 
+ margin: 120px 0 20px 400px; 
+ font-family: "Passion One", sans-serif;
+ letter-spacing: 5;
+}
+ 
+#about #contact {
+    margin: 30px 100 00 400;
+}
+
+#about #visit {
+    margin: 30px 0 0 0;
+}
+
+#about #connect {
+    margin: 30px 0 0 0;
+}
+
+#about small {
+    margin: 55px 0 0 0;
+}
+
+#about #mainnav {
+    margin: 0 50px 0 0;
+    padding-top: 10px
+}
+
+/* Services */
+
+#services * {
+    margin: 0;
+    padding: 0;
+}
+
+#services .container {
+    width: 100%;
+    height: 100%;
+    min-width: 1520px;
+    min-height: 1200px;
+    background-image: url('Images/wrinkled.jpg');
+}
+
+#services #logo {
+    width: 250px;
+    float: left;
+    margin-left: 2%;
+    z-index: 1;
+}
+
+#services footer {
+    margin: 400 0 0 0;
+}
+
+#list h3 {
+ font-size: 25px;
+ display: inline-block; 
+ margin: 120px 0 20px 470px; 
+ font-family: "Passion One", sans-serif;
+ letter-spacing: 5;
+}
+ 
+#services #contact {
+    margin: 30px 100px 00 400px;
+}
+
+#services #visit {
+    margin: 30px 0 0 0;
+}
+
+#services #connect {
+    margin: 30px 0 0 0;
+}
+
+#services small {
+    margin: 50px 0 0 0;
+}
+
+#services #mainnav {
+    margin: 0 50px 0 0;
+    padding-top: 10px
+}
